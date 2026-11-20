@@ -1,0 +1,7 @@
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/serializer.py:190: fungsi __init__ panjang (45 baris)
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/signer.py:129: fungsi __init__ panjang (45 baris)
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/signer.py:182: fungsi derive_key panjang (32 baris)
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/timed.py:182: # TODO: Signature is incompatible because parameters were added
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/timed.py:72: fungsi unsign panjang (87 baris)
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/timed.py:185: fungsi loads panjang (36 baris)
+/home/auliarahmitaufik/repo-uji/src/itsdangerous/url_safe.py:23: fungsi load_payload panjang (31 baris)
