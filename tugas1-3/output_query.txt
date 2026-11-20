@@ -1,4 +1,4 @@
-]633;E;echo "### fungsi + parameter";47b02c9a-336a-4df0-9b6c-b919137438f4]633;C### fungsi + parameter
+]633;E;echo "### fungsi + parameter";cc16909a-3bd7-46e7-a5c4-b880a09e25b2]633;C### fungsi + parameter
 tambah  (2 parameter)
 kali  (2 parameter)
 tanpa_param  (0 parameter)
