@@ -1,6 +1,39 @@
+== fungsi
+(module (function_definition name: (identifier) parameters: (parameters (identifier)) body: (block (return_statement (identifier)))))
+has_error = False
+anak langsung node pertama:
+  def anonim
+  identifier bernama
+  parameters bernama
+  : anonim
+  block bernama
+
+== if/else
+(module (if_statement condition: (comparison_operator (identifier) (integer)) consequence: (block (expression_statement (assignment left: (identifier) right: (integer)))) alternative: (else_clause body: (block (expression_statement (assignment left: (identifier) right: (integer)))))))
+has_error = False
+anak langsung node pertama:
+  if anonim
+  comparison_operator bernama
+  : anonim
+  block bernama
+  else_clause bernama
+
+== kelas
+(module (class_definition name: (identifier) body: (block (function_definition name: (identifier) parameters: (parameters (identifier)) body: (block (return_statement (string (string_start) (string_content) (string_end))))))))
+has_error = False
+anak langsung node pertama:
+  class anonim
+  identifier bernama
+  : anonim
+  block bernama
+
+== rusak (tanpa :)
 (module (ERROR (identifier) (parameters (identifier)) (identifier)))
-def anonim
-identifier bernama
-parameters bernama
-return anonim
-identifier bernama
+has_error = True
+anak langsung node pertama:
+  def anonim
+  identifier bernama
+  parameters bernama
+  return anonim
+  identifier bernama
+
