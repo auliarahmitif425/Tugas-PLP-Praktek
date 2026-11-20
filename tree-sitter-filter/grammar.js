@@ -3,7 +3,8 @@ module.exports = grammar({
   extras: $ => [/\s/],
   rules: {
     query: $ => $.comparison,
-    comparison: $ => seq($.identifier, '=', $.string),
+    comparison: $ => seq($.identifier, choice('=', '!=', '>', '<', '>=', '<='), choice($.string, $.number)),
+    number: $ => /\d+(\.\d+)?/,
     identifier: $ => /[a-zA-Z_][a-zA-Z0-9_.]*/,
     string: $ => /"[^"]*"/,
   }
