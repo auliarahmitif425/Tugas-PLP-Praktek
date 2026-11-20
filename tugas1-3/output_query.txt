@@ -1,0 +1,14 @@
+]633;E;echo "### fungsi + parameter";47b02c9a-336a-4df0-9b6c-b919137438f4]633;C### fungsi + parameter
+tambah  (2 parameter)
+kali  (2 parameter)
+tanpa_param  (0 parameter)
+
+### print
+@fn  baris 9: print
+@fn  baris 15: print
+@args  baris 9: (a, b)
+@args  baris 15: ("selesai")
+
+### import
+@modul  baris 1: os
+@modul  baris 2: pathlib
