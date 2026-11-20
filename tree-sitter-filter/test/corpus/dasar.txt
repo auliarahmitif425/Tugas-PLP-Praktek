@@ -101,3 +101,32 @@ a = 1 and b = 2 or c = 3
     right: (comparison
       field: (identifier)
       value: (number))))
+
+==================
+in dengan tiga nilai
+==================
+
+status in ("open", "pending", "closed")
+
+---
+
+(query
+  (in_expression
+    field: (identifier)
+    values: (value_list
+      (string)
+      (string)
+      (string))))
+
+==================
+contains untuk pencarian teks
+==================
+
+title contains "invoice"
+
+---
+
+(query
+  (contains_expression
+    field: (identifier)
+    value: (string)))
