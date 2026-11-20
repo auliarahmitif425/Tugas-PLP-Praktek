@@ -1,0 +1,19 @@
+{
+  "grammars": [
+    {
+      "name": "filter",
+      "camelcase": "Filter",
+      "title": "Filter",
+      "scope": "source.filter",
+      "file-types": ["filter"],
+      "highlights": "queries/highlights.scm"
+    }
+  ],
+  "metadata": {
+    "version": "0.1.0",
+    "license": "MIT",
+    "description": "DSL filter untuk kotak pencarian lanjutan halaman admin",
+    "authors": [{ "name": "Aulia" }]
+  },
+  "bindings": { "c": true, "python": true, "node": false, "rust": false, "go": false, "swift": false }
+}
